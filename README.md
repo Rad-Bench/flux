@@ -1,4 +1,3 @@
-# flux
 # RadBench Arduino code for Flux Capacitor lights
 # https://www.youtube.com/RadBenchYT
 
