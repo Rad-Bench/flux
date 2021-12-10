@@ -1,4 +1,4 @@
-# RadBench Arduino code for Flux Capacitor lights
+# RadBench Arduino code for Flux Capacitor LEDs, Speaker, and IR
 # https://www.youtube.com/RadBenchYT
 
 This is designed for a flux capacitor using a 10 nanoled strip
