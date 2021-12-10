@@ -3,7 +3,7 @@
 
 This is designed for a flux capacitor using a 10 nanoled strip
 You can modify it to suit the amount of lights used on your own flux capacitor.
-I'm not an expert coder, especially in C++ so don't @ me.
+I'm not an expert coder, especially in C++ so apologies for the spaghetti.
 
 
 
