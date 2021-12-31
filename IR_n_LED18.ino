@@ -162,6 +162,8 @@ void loop() {
         radChase = 0;
         radChase2 = 0;
         rainbowChase = 0;
+        FastLED.clear();
+        FastLED.show();
         break;
       case button_9:
         // stop current audio and play audio track
@@ -323,8 +325,9 @@ void loop() {
         break;
     }
     
-
-    irrecv.resume(); // next value
+    while (!irrecv.isIdle());  // if not idle, wait till complete
+      irrecv.resume(); // next value
+    
   }
 
 
@@ -831,13 +834,5 @@ void loop() {
       FastLED.show();
       rainbowChase = 1;
     }
-        
-      
-
-    
-  
-  
-
-
 
 }
